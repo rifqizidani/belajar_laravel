@@ -1,3 +1,7 @@
-<x-layout>
-    <h1>Ini Halaman Home</h1>
-</x-layout>
+@extends('layouts.app')
+
+@section('title', 'Daftar Post')
+
+@section('content')
+    <h1>Home</h1>
+@endsection
