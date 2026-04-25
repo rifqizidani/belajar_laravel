@@ -21,15 +21,6 @@
                     <li>
                         <a class="text-gray-500 transition hover:text-gray-500/75" href="/"> Home </a>
                     </li>
-
-                    <li>
-                        <a class="text-gray-500 transition hover:text-gray-500/75" href="/pendaftaran"> Pendaftaran </a>
-                    </li>
-
-                    <li>
-                        <a class="text-gray-500 transition hover:text-gray-500/75" href="/pengumuman"> Pengumuman </a>
-                    </li>
-
                 </ul>
             </nav>
 
@@ -55,6 +46,8 @@
         </div>
     </header>
 
-    @yield('content')
+    <div class="m-10">
+        @yield('content')
+    </div>
 </body>
 </html>

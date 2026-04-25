@@ -3,5 +3,5 @@
 @section('title', 'Daftar Post')
 
 @section('content')
-    <h1>Home</h1>
+    <h1>Welcome {{ $nama }} from {{ $alamat }}</h1>
 @endsection
